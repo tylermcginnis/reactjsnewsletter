@@ -105,6 +105,12 @@ textarea:focus, input:focus{
   margin: 0px auto !important;
 }
 
+#thankyou {
+  display: none;
+  color: #424242;
+  font-size: 28px;
+}
+
 @media screen and (max-width: 1100px) {
   .title-container {
     font-size: 32px;
