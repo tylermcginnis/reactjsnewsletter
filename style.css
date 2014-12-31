@@ -17,11 +17,31 @@ html,body {
   font-size: 42px;
 }
 
-.main-container {
+.main-container, .recent-posts {
   color: #EDEDED;
   width: 50%;
   margin: 20px auto;
   text-align: center;
+  padding-bottom: 20px;
+}
+
+.recent-posts {
+  height: 100%;
+  color: #EDEDED;
+  text-align: left;
+}
+
+.recent-posts .title-container {
+  text-align: center;
+}
+
+.recent-posts a {
+  color: inherit;
+}
+
+.recent-posts ul li {
+  list-style-type: none;
+  padding: 20px 0;
 }
 
 .logo-container {
@@ -109,6 +129,16 @@ textarea:focus, input:focus{
   display: none;
   color: #424242;
   font-size: 28px;
+}
+
+.posts {
+  float: right;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.posts a {
+  color: inherit;
 }
 
 @media screen and (max-width: 1100px) {
