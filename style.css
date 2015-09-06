@@ -16,6 +16,12 @@ html,body {
   font-size: 42px;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
 .main-container {
   color: #333;
   width: 80%;
@@ -105,7 +111,7 @@ html,body {
 
 #mc_embed_signup input.email {
   margin: 12px auto !important;
-  border: 1px solid #c6ccd1;
+  border: 1px solid #E4E4E4;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -154,28 +160,58 @@ textarea:focus, input:focus{
 }
 
 .twitterBtn {
-    float: right;
-    cursor: pointer;
-    display: inline-block;
-    height: 20px;
-    width: 50px;
-    font-size: 25px;
-    background: #55acee;
-    border-bottom: 3px solid #3D90D0;
-    border-radius: 3px;
-    padding: 10px 20px;
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
-    -webkit-transition: 0.2s ease;
-    -moz-transition: 0.2s ease;
-    -ms-transition: 0.2s ease;
-    -o-transition: 0.2s ease;
-    transition: 0.2s ease;
+  float: right;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 35px;
+  color: #55acee;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .twitterBtn:hover {
-    background: #56BBEE;
+  color: #56BBEE;
+}
+
+.postContainer {
+  width: 70%;
+  margin: 30px auto;
+  border-bottom: 1px solid #E4E4E4;
+  padding: 30px;
+}
+
+.postTitle {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.postBody {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.authorInfo {
+
+}
+
+.authorName {
+  font-size: 20px;
+  text-align: center;
+}
+
+.divider {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.authorHandle {
+  font-size: 20px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1100px) {
