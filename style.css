@@ -41,26 +41,11 @@ a {
   float: left;
 }
 
-.recent-posts {
-  height: 100%;
-  color: #EDEDED;
-  text-align: left;
-}
-
 .title-container {
   text-align: center;
   font-size: 35px;
   width: 60%;
   margin: 15px auto;
-}
-
-.recent-posts a {
-  color: inherit;
-}
-
-.recent-posts ul li {
-  list-style-type: none;
-  padding: 20px 0;
 }
 
 .signup-container {
@@ -69,18 +54,6 @@ a {
   margin: 0px auto;
   position: relative;
   background: white;
-}
-
-.giveaway {
-  font-size: 20px;
-}
-
-
-.signup-title{
-  position: relative;
-  color: #424242;
-  font-size: 45px;
-  margin-bottom: 10px;
 }
 
 .no-spam {
@@ -132,11 +105,11 @@ body #mc_embed_signup .button {
 }
 
 #mc_embed_signup .button:hover {
-    background-color: #0E89E0 !important;
+  background-color: #0E89E0 !important;
 }
 
 textarea:focus, input:focus{
-    outline: 0;
+  outline: 0;
 }
 
 #mc_embed_signup input.button {
@@ -147,16 +120,6 @@ textarea:focus, input:focus{
   display: none;
   color: #424242;
   font-size: 28px;
-}
-
-.posts {
-  float: right;
-  font-size: 16px;
-  text-decoration: underline;
-}
-
-.posts a {
-  color: inherit;
 }
 
 .twitterBtn {
