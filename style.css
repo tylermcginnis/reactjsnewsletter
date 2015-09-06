@@ -35,11 +35,6 @@ html,body {
   float: left;
 }
 
-.twitter {
-  float: right;
-    overflow: hidden;
-}
-
 .recent-posts {
   height: 100%;
   color: #EDEDED;
@@ -156,6 +151,31 @@ textarea:focus, input:focus{
 
 .posts a {
   color: inherit;
+}
+
+.twitterBtn {
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    width: 50px;
+    font-size: 25px;
+    background: #55acee;
+    border-bottom: 3px solid #3D90D0;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+.twitterBtn:hover {
+    background: #56BBEE;
 }
 
 @media screen and (max-width: 1100px) {
