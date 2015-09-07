@@ -36,8 +36,8 @@ a {
 }
 
 .top-container img{
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 91.5px;
   float: left;
 }
 
@@ -201,5 +201,19 @@ textarea:focus, input:focus{
 @media screen and (max-width: 870px) {
   .main-container {
     width: 80%;
+  }
+  .post-container {
+    width: 100%;
+  }
+  .newsletterContainer {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+  }
+  .postContainer {
+    padding: 10;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
   }
 }
