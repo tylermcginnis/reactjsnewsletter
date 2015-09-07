@@ -177,6 +177,21 @@ textarea:focus, input:focus{
   text-align: center;
 }
 
+.newsletterContainer {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.number {
+  font-size: 34px;
+  text-align: left;
+}
+
+.date {
+  font-size: 20px;
+  text-align: left;
+}
+
 @media screen and (max-width: 1100px) {
   .title-container {
     font-size: 32px;

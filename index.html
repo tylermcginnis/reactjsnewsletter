@@ -55,20 +55,30 @@
         thankyou.style.display = 'block';
       });
 
-      posts.forEach(function(post){
-        var node = document.createElement('DIV');
-        node.className = 'postContainer';
-        node.innerHTML =  '<p class="postTitle"><a class="postUrl" href='+ post.url +'>' + post.title + '</a></p>' +
-                          '<p class="postBody"> ' + post.body + '</p>' +
-                          '<div class="authorInfo">' +
-                            '<span class="authorName">' + post.author + '<span class="divider">|</span>' + "</span>" +
-                            '<span class="authorHandle"><a class="handleLink" href="http://twitter.com/' + post.twitterHandle + '">@' + post.twitterHandle + '</a></span>' +
-                          '</div>';
-        document.getElementById('posts-container').appendChild(node);
+      newsletters.forEach(function(newsletter){
+        var newsletterContainer = document.createElement('DIV');
+        newsletterContainer.className = 'newsletterContainer';
+        var newsletterInfo = document.createElement('DIV');
+        newsletterInfo.className = 'newsletterInfo';
+        newsletterInfo.innerHTML = '<div class="number">#' +  newsletter.number + '</div>' +
+                                   '<div class="date">' +  newsletter.date + '</div>';
+        newsletterContainer.appendChild(newsletterInfo);
+        newsletter.posts.forEach(function(post){
+          var node = document.createElement('DIV');
+          node.className = 'postContainer';
+          node.innerHTML =  '<p class="postTitle"><a class="postUrl" href='+ post.url +'>' + post.title + '</a></p>' +
+                            '<p class="postBody"> ' + post.body + '</p>' +
+                            '<div class="authorInfo">' +
+                              '<span class="authorName">' + post.author + '<span class="divider">|</span>' + "</span>" +
+                              '<span class="authorHandle"><a class="handleLink" href="http://twitter.com/' + post.twitterHandle + '">@' + post.twitterHandle + '</a></span>' +
+                            '</div>';
+          newsletterContainer.appendChild(node);
+        });
+        document.getElementById('posts-container').appendChild(newsletterContainer);
       });
     };
   </script>
   <script src="http://underscorejs.org/underscore.js"></script>
-  <script src="posts.js"></script>
+  <script src="newsletters.js"></script>
 </body>
 </html>
