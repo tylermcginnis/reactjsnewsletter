@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="React.js Newsletter: The free, weekly newsletter of the best React.js news and articles.">
   <meta name="keywords" content=" reactjs reactjs tutorial react newsletter reactjsnewsletter ">
   <title>React.js Newsletter: The free, weekly newsletter of the best React.js news and articles.</title>
@@ -46,7 +47,7 @@
     <div class="posts-container" id="posts-container"></div>
   </div>
   <script>
-    window.onload = function(){
+    document.addEventListener('DOMContentLoaded', function(){
       var btn = document.getElementById('mc-embedded-subscribe');
       var form = document.getElementById('mc_embed_signup');
       var thankyou = document.getElementById('thankyou');
@@ -76,7 +77,7 @@
         });
         document.getElementById('posts-container').appendChild(newsletterContainer);
       });
-    };
+    });
   </script>
   <script src="http://underscorejs.org/underscore.js"></script>
   <script src="newsletters.js"></script>
