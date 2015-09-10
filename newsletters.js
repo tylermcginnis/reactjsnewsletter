@@ -1,22 +1,85 @@
 var newsletters = [
   {
+    published: false,
+    number: "15",
+    date: '9/17/15',
+    posts: [
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      }
+    ],
+  },
+  {
     number: "14",
     date: '9/10/15',
     posts: [
       {
-        title: "React Mocha Test Suite with Gulp",
-        body: "React is the first JavaScript framework that I have enjoyed writing tests for. In this article, I help you setup your testing toolchain using Gulp so that you can constantly run your tests during development.",
-        author: "Brian Hough",
-        twitterHandle: "b_hough",
-        url: "http://css-max.com/testing-react-tool-implementation/",
+        title: "State Management with Redux",
+        body: "You've probably noticed a trend in the React world lately. Everyone is talking about Redux. There's a reason for this. In this post, Brandon talks about his frustrations with state management before Redux and how Redux is changing the way we think about managing our state.",
+        author: "Brandon Konkle",
+        twitterHandle: "bkonkle",
+        url: "http://konkle.us/state-management-with-redux/",
       },
       {
-        title: "Up and running with ES6 and React in under 5 minutes",
+        title: "Up and Running with ES6 and React in Under 5 Minutes",
         body: "This article shows how to avoid bikeshedding your environment setup and just start hacking quickly. Using hjs-webpack you can have a productive dev environment in no time flat.",
         author: "Ben Clinkinbeard",
         twitterHandle: "bclinkinbeard",
         url: "http://benclinkinbeard.com/posts/up-and-running-with-es6-and-react-in-under-5-minutes/"
-      }
+      },
+      {
+        title: "(Video) Principles of Functional Programming in React",
+        body: "Functional programming is once again making it's way into the limelight. In this talk, Jessica walks through why that is and how to better use functional programming techniques in your React codebase.",
+        author: "Jessica Kerr",
+        twitterHandle: "jessitron",
+        url: "https://www.youtube.com/watch?v=1uRC3hmKQnM&feature=youtu.be",
+      },
+      {
+        title: "Single State Tree + Flux",
+        body: "Ever thought of managing your entire application state in a single tree? Merrick has, and he loves it. In this post Merrick explains why he came to this conclusion as well as how Redux helps him accomplish this approach.",
+        author: "Merrick Christensen",
+        twitterHandle: "iammerrick",
+        url: "http://merrickchristensen.com/articles/single-state-tree.html",
+      },
+      {
+        title: "React Mocha Test Suite with Gulp",
+        body: "React is the first JavaScript framework that Brian has enjoyed writing tests for. In this article, Brian will walk you through setting up your testing toolchain using Gulp so that you can constantly run your tests during development.",
+        author: "Brian Hough",
+        twitterHandle: "b_hough",
+        url: "http://css-max.com/testing-react-tool-implementation/",
+      },
     ],
   },
   {
