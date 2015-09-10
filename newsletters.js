@@ -2,7 +2,22 @@ var newsletters = [
   {
     number: "14",
     date: '9/10/15',
-    posts: [],
+    posts: [
+      {
+        title: "React Mocha Test Suite with Gulp",
+        body: "React is the first JavaScript framework that I have enjoyed writing tests for. In this article, I help you setup your testing toolchain using Gulp so that you can constantly run your tests during development.",
+        author: "Brian Hough",
+        twitterHandle: "b_hough",
+        url: "http://css-max.com/testing-react-tool-implementation/",
+      },
+      {
+        title: "Up and running with ES6 and React in under 5 minutes",
+        body: "This article shows how to avoid bikeshedding your environment setup and just start hacking quickly. Using hjs-webpack you can have a productive dev environment in no time flat.",
+        author: "Ben Clinkinbeard",
+        twitterHandle: "bclinkinbeard",
+        url: "http://benclinkinbeard.com/posts/up-and-running-with-es6-and-react-in-under-5-minutes/"
+      }
+    ],
   },
   {
     number: "13",
