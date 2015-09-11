@@ -5,11 +5,11 @@ var newsletters = [
     date: '9/17/15',
     posts: [
       {
-        title: '',
-        body: '',
-        author: '',
-        twitterHandle: '',
-        url: ''
+        title: 'Reuse your react-native styles and components in browser react-dom',
+        body: 'Do you use react-native for your apps in production? Well, maybe you also have a web version of them as admin panel or just to reuse your codebase on android, windows phone, web app or firefox os? Well, what if I told you that you can convert your react-native version to the web and have a basic web-based version up and running for free without code changes? That could sound cool, but let\'s discover more about it!',
+        author: 'Mattia Manzati',
+        twitterHandle: 'mattiamanzati',
+        url: 'http://mattiamanzati.gitbooks.io/react-native-for-web/content/'
       },
       {
         title: '',
