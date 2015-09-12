@@ -64,7 +64,7 @@ var newsletters = [
         body: "Functional programming is once again making it's way into the limelight. In this talk, Jessica walks through why that is and how to better use functional programming techniques in your React codebase.",
         author: "Jessica Kerr",
         twitterHandle: "jessitron",
-        url: "https://www.youtube.com/watch?v=1uRC3hmKQnM&feature=youtu.be",
+        url: "https://www.youtube.com/watch?v=1uRC3hmKQnM",
       },
       {
         title: "Single State Tree + Flux",
