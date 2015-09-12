@@ -486,7 +486,7 @@ var newsletters = [
         title: "React + Angular DI",
         body: "A few weeks ago we posted an article from Merrick as he ventured into making his React code more testable. We're excited to announce he finally nailed it. In this post Merrick walks through how to use Angular's di.js with React in order to create testable code without module system level mocking.",
         author: "Merrick Christensen",
-        twitterHandle: "merrickchristensen",
+        twitterHandle: "iammerrick",
         url: "http://merrickchristensen.com/articles/react-angular-di.html",
       },
       {
