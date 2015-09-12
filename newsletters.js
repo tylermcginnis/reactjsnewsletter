@@ -12,11 +12,11 @@ var newsletters = [
         url: 'http://mattiamanzati.gitbooks.io/react-native-for-web/content/'
       },
       {
-        title: '',
-        body: '',
-        author: '',
-        twitterHandle: '',
-        url: ''
+        title: 'React CSS Modules',
+        body: 'React CSS Modules implement automatic mapping of class names to CSS modules. Every CSS class is assigned a local-scoped identifier with a global unique name. CSS Modules enable a modular and reusable CSS!',
+        author: 'Gajus Kuizinas',
+        twitterHandle: 'kuizinas',
+        url: 'https://github.com/gajus/react-css-modules'
       },
       {
         title: '',
