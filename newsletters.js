@@ -5,11 +5,11 @@ var newsletters = [
     date: '9/24/15',
     posts: [
       {
-        title: '',
-        body: '',
-        author: '',
-        twitterHandle: '',
-        url: ''
+        title: 'Building a Basic Mobile Imgur Application for iOS and Android with React Native',
+        body: 'This article walks through building an Imgur mobile application in React Native. It also has an extra bit on custom pagination for horizontal ScrollView.',
+        author: 'Jae Hun Ro',
+        twitterHandle: 'pick_and_ro',
+        url: 'http://jaero.space/blog/imgur-react-native/'
       },
       {
         title: '',
