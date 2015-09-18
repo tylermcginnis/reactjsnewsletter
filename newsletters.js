@@ -1,22 +1,22 @@
 var newsletters = [
-  {
+{
     published: false,
     number: "15",
-    date: '9/17/15',
+    date: '9/24/15',
     posts: [
       {
-        title: 'Reuse your react-native styles and components in browser react-dom',
-        body: 'Do you use react-native for your apps in production? Well, maybe you also have a web version of them as admin panel or just to reuse your codebase on android, windows phone, web app or firefox os? Well, what if I told you that you can convert your react-native version to the web and have a basic web-based version up and running for free without code changes? That could sound cool, but let\'s discover more about it!',
-        author: 'Mattia Manzati',
-        twitterHandle: 'mattiamanzati',
-        url: 'http://mattiamanzati.gitbooks.io/react-native-for-web/content/'
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
       },
       {
-        title: 'React CSS Modules',
-        body: 'React CSS Modules implement automatic mapping of class names to CSS modules. Every CSS class is assigned a local-scoped identifier with a global unique name. CSS Modules enable a modular and reusable CSS!',
-        author: 'Gajus Kuizinas',
-        twitterHandle: 'kuizinas',
-        url: 'https://github.com/gajus/react-css-modules'
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
       },
       {
         title: '',
@@ -39,6 +39,48 @@ var newsletters = [
         twitterHandle: '',
         url: ''
       }
+    ],
+  },
+  {
+    published: false,
+    number: "15",
+    date: '9/17/15',
+    posts: [
+      {
+        title: 'Full-Stack Redux Tutorial',
+        body: "If you've read any of Tero's books or articles, you already know he puts tons of effort into his writings. This article is no different. In this article (which arguably could be considered an ebook), Tero walks through a test first approach to building an app with Redux, React, and Immutable.",
+        author: 'Tero Parviainen',
+        twitterHandle: 'teropa',
+        url: 'http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html'
+      },
+      {
+        title: 'React CSS Modules',
+        body: 'React CSS Modules implement automatic mapping of class names to CSS modules. Every CSS class is assigned a local-scoped identifier with a global unique name. CSS Modules enable a modular and reusable CSS!',
+        author: 'Gajus Kuizinas',
+        twitterHandle: 'kuizinas',
+        url: 'https://github.com/gajus/react-css-modules'
+      },
+      {
+        title: 'React Rally Videos',
+        body: "Did you miss the amazing React conference that happened in Utah last month? Good news is most of the talks are now online on React Rally's youtube channel.",
+        author: 'Matt Zabriskie and Jamison Dance',
+        twitterHandle: 'reactrally',
+        url: 'https://www.youtube.com/channel/UCXBhQ05nu3L1abBUGeQ0ahw'
+      },
+      {
+        title: 'Container Components',
+        body: "This article is a bit old but it's great if you haven't read it or it's been a while since you first read it. Michael walks through the importance of having 'container components' in your app, or separating components which fetch data from those that present data.",
+        author: 'Michael Chan',
+        twitterHandle: 'chantastic',
+        url: 'https://medium.com/@learnreact/container-components-c0e67432e005'
+      },
+      {
+        title: 'Reuse your React-Native Styles and Components in Browser React-DOM',
+        body: 'Do you use react-native for your apps in production? Well, maybe you also have a web version of them as an admin panel or just to reuse your codebase on android, windows phone, web app or firefox os? Well, what if I told you that you can convert your react-native version to the web and have a basic web-based version up and running for free without code changes? That could sound cool, but let\'s discover more about it!',
+        author: 'Mattia Manzati',
+        twitterHandle: 'mattiamanzati',
+        url: 'http://mattiamanzati.gitbooks.io/react-native-for-web/content/'
+      },
     ],
   },
   {
