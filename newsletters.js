@@ -42,7 +42,6 @@ var newsletters = [
     ],
   },
   {
-    published: false,
     number: "15",
     date: '9/17/15',
     posts: [
