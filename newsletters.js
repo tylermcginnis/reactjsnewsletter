@@ -1,8 +1,8 @@
 var newsletters = [
 {
-    published: false,
-    number: "15",
-    date: '9/24/15',
+    published: true,
+    number: "16",
+    date: '10/15/15',
     posts: [
       {
         title: 'Building a Basic Mobile Imgur Application for iOS and Android with React Native',
@@ -12,32 +12,32 @@ var newsletters = [
         url: 'http://jaero.space/blog/imgur-react-native/'
       },
       {
-        title: '',
-        body: '',
-        author: '',
-        twitterHandle: '',
-        url: ''
+        title: 'ReactCheatSheet.com',
+        body: 'A filterable React.js Cheatsheet with basic examples.',
+        author: 'Michael Chan',
+        twitterHandle: 'chantastic',
+        url: 'http://reactcheatsheet.com/'
       },
       {
-        title: '',
-        body: '',
-        author: '',
-        twitterHandle: '',
-        url: ''
+        title: 'Khan Academy React.js Style Guide',
+        body: "Khan Academy is a big proponent of React. Here's their style guide they use for their React.js code.",
+        author: 'Khan Academy',
+        twitterHandle: 'khanacademy',
+        url: 'https://github.com/Khan/style-guides/blob/master/style/react.md'
       },
       {
-        title: '',
-        body: '',
-        author: '',
-        twitterHandle: '',
-        url: ''
+        title: 'How to Use Classes and Sleep at Night',
+        body: "If you've been following the JavaScript community at all the last few weeks you're aware that a civil war uprose about using Classes in JavaScript. In this article, Dan breaks down the pros and cons of classes in JavaScript in a logical and reasonable manner.",
+        author: 'Dan Abramov',
+        twitterHandle: 'dan_abramov',
+        url: 'https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4'
       },
       {
-        title: '',
-        body: '',
-        author: '',
-        twitterHandle: '',
-        url: ''
+        title: 'React and Flux: Migrating to ES6 with Babel and ESLint',
+        body: 'If your dev team is still avoiding ES6, read this article and make the jump. In this article Aaron will guide you through common pitfalls when jumping to ES6 with React.',
+        author: 'Aaron Tribou',
+        twitterHandle: 'aarontribou',
+        url: 'https://medium.com/@tribou/react-and-flux-migrating-to-es6-with-babel-and-eslint-6390cf4fd878'
       }
     ],
   },
