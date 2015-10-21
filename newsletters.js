@@ -1,5 +1,89 @@
 var newsletters = [
-{
+  {
+    published: false,
+    number: "18",
+    date: '10/29/15',
+    posts: [
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+    ],
+  },
+  {
+    published: false,
+    number: "17",
+    date: '10/22/15',
+    posts: [
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+      {
+        title: '',
+        body: '',
+        author: '',
+        twitterHandle: '',
+        url: ''
+      },
+    ],
+  },
+  {
     published: true,
     number: "16",
     date: '10/15/15',
